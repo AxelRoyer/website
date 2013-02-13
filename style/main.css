@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: 'life';
+  src: url("./Life.ttf");
+}
+
+body, html{
+    background-color: #FCFAE1;
+    padding: 0;
+    margin : 0;
+    font-family : life;
+    font-size:      16px;   
+
+}
+
+
+
+
+
+
+

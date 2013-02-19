@@ -3,12 +3,12 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Axel ROYER</title>
-        <link rel="stylesheet" href="./style/CV.css" />
+        <link rel="stylesheet" href="./style/main.css" />
     </head>
     <body>
         <header>
             <div id="center">
-                <h1><a href="./index.html">Axel ROYER</a></h1>               
+                <h1></h1>               
                 <nav>
                     <ul>
                         <li>
@@ -83,4 +83,5 @@ else{
 }
 ?>
     </body>
+
 </html>

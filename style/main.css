@@ -327,7 +327,7 @@ li > a, #center > h1 > a{
     font-family: arial;
 }
 
-li > a, #center > h1 > a:visited{
+#center  li > a, #center > h1 > a:visited{
     color : #FCFAE1;
     text-decoration:none;
     font-family: arial;

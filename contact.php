@@ -8,7 +8,7 @@
     <body>
         <header>
             <div id="center">
-                <h1></h1>
+                <a href="./index.html"><img src="./style/images/logo_axel3.png" alt="Axel ROYER"/></a>
                 <nav>
                     <ul>
                         <li>
@@ -21,7 +21,7 @@
                             <a href="./projects.html">Projects</a>
                         </li>
                         <li>
-                            <a href="./contact.php" class="activeContact">Contact</a>
+                            <a href="./contact.php" class="activeTab">Contact</a>
                         </li>
                     </ul>
                 </nav>

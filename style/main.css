@@ -17,14 +17,12 @@ html {
 }
 
 body, html{
-    background-color: #FCFAE1;
     padding: 0;
     margin : 0;
     font-family : life;
     font:13px/1.5 'Helvetica Neue',Arial,'Liberation Sans',FreeSans,sans-serif;
     background : url(images/background.jpg) repeat;
     height: 100%;
-    background-color: green;
 }
 
 div, span
@@ -306,7 +304,7 @@ nav > ul{
      position:relative;
 }
 
-nav > ul > li, .activeTab, .activeContact{
+nav > ul > li, .activeTab{
     height: 30px;
     padding-bottom: 20px;
     width : 100px;
@@ -317,60 +315,8 @@ nav > ul > li, .activeTab, .activeContact{
     height: 15px;
 }
 
-.activeTab, .activeContact{
+.activeTab{
     border-bottom: 5px solid #9ac20e;
-}
-
-.activeContact{
-    background-color: #9ac20e;
-    border-radius: 2px;
-}
-
-nav ul li:last-child:before{
-    background-color: black;
-    content:"";
-    float: left;
-    position: absolute;
-    height: 5px;
-    width: 25px;
-    top:25px;
-    left:-20px;
-    -moz-transition : all .6s ease;
-    -webkit-transition : all .6s ease;
-}
-
-nav ul li:hover ~ nav ul li:before{
-    background-color: green;
-    left:40px;
-    width: 100px;
-    -moz-transition : all .4s ease;
-    -webkit-transition : all .4s ease;
-}
-
-nav ul li:nth-child(2):hover ~nav ul li:before{
-    background-color: green;
-    left:140px;
-    width:100px;
-    -moz-transition : all .4s ease;
-    -webkit-transition : all .4s ease;
-}
-
-nav ul li:nth-child(3):hover ~nav ul li:before{
-    background-color: green;
-    left:240px;
-    width:100px;
-    -moz-transition : all .4s ease;
-    -webkit-transition : all .4s ease;
-}
-
-nav ul li:last-child:hover{
-    border-bottom: 5px solid #9ac20e;
-    background-color:#9ac20e;
-    left:340px;
-    width:100px;
-    -moz-transition : all .4s ease;
-    -webkit-transition : all .4s ease;
-    border-radius: 2px 2px 0 0;
 }
 
 /*******************************************************/
@@ -451,7 +397,7 @@ li > a, #center > h1 > a:visited{
     height : 250px;
 }
 
-#submit, input, textarea{
+#submit, input[type='text'], textarea{
     width: 400px;
     margin : 10px;
     border: 1px solid gray;

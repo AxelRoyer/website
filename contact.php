@@ -8,7 +8,7 @@
     <body>
         <header>
             <div id="center">
-                <h1></h1>               
+                <h1></h1>
                 <nav>
                     <ul>
                         <li>
@@ -21,7 +21,7 @@
                             <a href="./projects.html">Projects</a>
                         </li>
                         <li>
-                            <a href="./contact.php">Contact</a>
+                            <a href="./contact.php" class="activeContact">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -39,7 +39,7 @@ if($_POST['submit'] !== '1'){
                 <input name='submit' type='hidden' value='1'/>
                 <input name='name' type='text' placeholder='Name'/>
                 <input name='email' type='text' placeholder='Email'/>
-                <input name='subject' type='text' placeholder='subject'/>                
+                <input name='subject' type='text' placeholder='subject'/>
                 <textarea name='mail_text' rows='8' placeholder='Message' requierd></textarea>
                 <p>
                     <label><input type='radio' name='mail_bot' value='oui' checked='checked' /> I'm a robot</label>
@@ -67,10 +67,10 @@ else{
                 <input name='submit' type='hidden' value='1'/>";?>
                 <input name='name' type='text' placeholder='Name' value="<?php echo isset($_POST['name']) ? $_POST['name'] : '';?>"/>
                 <input name='email' type='text' placeholder='Email'value="<?php echo isset($_POST['email']) ? $_POST['email'] : '';?>"/>
-                <input name='subject' type='text' placeholder='subject' value="<?php echo isset($_POST['subject']) ? $_POST['subject'] : '';?>"/>              
+                <input name='subject' type='text' placeholder='subject' value="<?php echo isset($_POST['subject']) ? $_POST['subject'] : '';?>"/>
                 <textarea name='mail_text' rows='8' placeholder='Message' requierd><?php echo isset($_POST['mail_text']) ? $_POST['mail_text'] : '';?></textarea>
         <?php
-        echo"        
+        echo"
                 <p>Are you really a robot ? I don't like robots :(</p>
                 <p>
                     <label><input type='radio' name='mail_bot' value='oui' checked='checked' /> I'm a robot</label>

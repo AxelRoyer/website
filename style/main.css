@@ -367,7 +367,7 @@ li > a, #center > h1 > a{
 }
 
 #projects, #contact{
-    margin-top: 100px;
+    padding-top: 100px;
     text-align: center;
 }
 

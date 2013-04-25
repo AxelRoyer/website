@@ -467,3 +467,12 @@ footer{
 #pictures li:hover span {
     bottom: 0;
 }
+
+#browserProblems{
+	display:none;
+	color : white;
+	background-color : red;
+	margin : 20px;
+	font-weight:bold;
+	border-radius : 5px;
+}
